@@ -1,8 +1,16 @@
-//
-//  DataModels.swift
-//  TrySwiftData
-//
-//  Created by 釣悠馬 on 2023/10/02.
-//
-
 import Foundation
+import SwiftData
+
+@Model
+class Task {
+    var name: String
+    var isDone: Bool
+    let time: Date
+
+    init(name: String, time: Date) {
+        self.name = name
+        isDone = false
+        self.time = time
+    }
+}
+

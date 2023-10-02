@@ -14,6 +14,7 @@
 		5C4662DA2AC9C43B00291B47 /* TrySwiftDataTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4662D92AC9C43B00291B47 /* TrySwiftDataTests.swift */; };
 		5C4662E42AC9C43B00291B47 /* TrySwiftDataUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4662E32AC9C43B00291B47 /* TrySwiftDataUITests.swift */; };
 		5C4662E62AC9C43B00291B47 /* TrySwiftDataUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4662E52AC9C43B00291B47 /* TrySwiftDataUITestsLaunchTests.swift */; };
+		5C4662F32AC9C7B700291B47 /* DataModels.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5C4662F22AC9C7B700291B47 /* DataModels.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +45,7 @@
 		5C4662DF2AC9C43B00291B47 /* TrySwiftDataUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TrySwiftDataUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		5C4662E32AC9C43B00291B47 /* TrySwiftDataUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftDataUITests.swift; sourceTree = "<group>"; };
 		5C4662E52AC9C43B00291B47 /* TrySwiftDataUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrySwiftDataUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		5C4662F22AC9C7B700291B47 /* DataModels.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataModels.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,6 +97,7 @@
 			isa = PBXGroup;
 			children = (
 				5C4662C82AC9C43A00291B47 /* TrySwiftDataApp.swift */,
+				5C4662F22AC9C7B700291B47 /* DataModels.swift */,
 				5C4662CA2AC9C43A00291B47 /* ContentView.swift */,
 				5C4662CC2AC9C43B00291B47 /* Assets.xcassets */,
 				5C4662CE2AC9C43B00291B47 /* Preview Content */,
@@ -257,6 +260,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5C4662F32AC9C7B700291B47 /* DataModels.swift in Sources */,
 				5C4662CB2AC9C43A00291B47 /* ContentView.swift in Sources */,
 				5C4662C92AC9C43A00291B47 /* TrySwiftDataApp.swift in Sources */,
 			);
