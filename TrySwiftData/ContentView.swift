@@ -5,6 +5,9 @@ struct ContentView: View {
     
     @Environment(\.modelContext) private var context
     @Query private var tasks: [Task]
+//    @Query(sort: \Task.time) private var tasks: [Task]
+//    @Query(filter: #Predicate<Task> { $0.name == "授業" }) var tasks: [Task]
+//    @Query(filter: #Predicate<Task> { $0.name == "授業" }, sort: \Task.time) var tasks: [Task]
     
     @State private var timeFormatter = DateFormatter()
 
@@ -32,6 +35,7 @@ struct ContentView: View {
                 Button(action: {
                     add(taskName: taskName, time: time)
                     taskName = ""
+                    time = Date()
                 }, label: {
                     Text("追加")
                 })

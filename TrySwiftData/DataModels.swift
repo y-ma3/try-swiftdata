@@ -13,4 +13,3 @@ class Task {
         self.time = time
     }
 }
-
